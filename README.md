@@ -9,7 +9,7 @@ service Simple {
     rpc Hello(HelloRequest) returns (HelloReply) {}
 }
 ```
-Service consists of methods that accept a message or stream of messages and returns another message or stream of messages.
+Service consists of methods that accept a message or stream of messages and returns another message or stream.
 
 Message is an objects that stores data that are being sent. 
 Because gRPC is staticly typed you have to specify type of every field and also each field has a number that is used for serialization.
